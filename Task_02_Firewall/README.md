@@ -15,4 +15,4 @@ The following rules were applied using the `ufw_configuration.sh` script:
 - **Testing:** Attempted to access port 80 using `curl http://localhost`, which resulted in a "Connection refused" error, confirming the firewall is effectively blocking the port.
 
 ### Evidence
-[Insert your screenshot here]
+![Firewall Verification](image_9fb771.jpg)
